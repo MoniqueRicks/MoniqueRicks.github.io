@@ -1,30 +1,162 @@
 #title{
-  text-align:center
+  text-align:center;
+  color: #340933;
 }
 #picture{
-  text-align:center
+  text-align:center;
 }
 #picture2{
   text-align:center;
 }
 #header{
-  text-align: center
+  text-align: center;
+  background-color: #AE0D7A ;
 }
 #header2{
-  text-align: center
+  text-align: center;
+  background-color: #AE0D7A ;
 }
 #who{
-  color:lightpink
+  color:#340933;
 }
 #basic{
-  color:lightpink
+  color:#340933;
 }
-#header2 {
-background-color: lightpink;
+#goto{
+  color: ;
 }
-#header {
-  background-color: lightpink
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
 }
-#title{
-  color:lightpink
+
+.navlink{
+  opacity: 1;
+  flex: 1;
+  background-color: ;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:
+
+
 }
+
+.navlink a{
+  text-decoration: none;
+  display: block;
+   color: #000;
+   padding: 8px 16px;
+   background-color: #555
+   color: white;
+
+}
+#pic{
+text-align:center;
+}
+#College{
+  text-align: center;
+  color:  #00064f;
+  background-color: lightpink;
+}
+#p{
+  text-align: center;
+  color:#340933 ;
+
+}
+#Topic{
+  text-align: center;
+  color:#340933;
+
+}
+#Head{
+  text-align:center;
+  color: #00064f;
+  text-size: 20px;
+  background-color: lightpink;
+}
+#job{
+  text-align: center;
+  color: #00064f;
+}
+#jobs{
+  text-align: center;
+  color: #00064f
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+.navlink{
+  flex: 1;
+  background-color: lightpink;
+
+}
+
+.navlink a{
+  text-decoration: none;
+
+}
+.container {
+border: 2px solid #ffcc5c;
+display: flex;
+flex-direction: row;
+}
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+  color: #ffeead;
+}
+
+html, body {
+  background-color: lightpink;
+  margin: 3px;
+}
+
+.container > div:nth-child(1) {
+  background-color: #183BF0;
+}
+
+.container > div:nth-child(2) {
+  background-color: #9A0794;
+}
+
+.container > div:nth-child(3) {
+  background-color: #183BF0;
+}
+.container > div:nth-child(4) {
+  background-color: #9A0794;
+}
+.bodylink {
+    color: black  !important;
+}
+.bodylink:hover {
+    color: #C80000 !important;
+}
+a:before {
+    color: #E8F3F6;
+}
+a:link {
+    color: #E8F3F6;
+    text-decoration: none;
+}
+a:visited{
+    color: #E8F3F6;
+}
+a:hover {
+    color: #fc03c6;
+}
+.container > div:hover {
+    background-color: black;
+    color: #E9E9E9;
+    opacity: 1;
+    transition: 0.4s;
+}
+
